@@ -1,4 +1,4 @@
-                                                                                                        Job Management System
+                                                        Job Management System
 Overview
 The Job Management System is a platform where companies can post job openings, and candidates can apply to those jobs. This system facilitates the recruitment process by allowing companies to manage their job listings and enabling candidates to view, apply, and track job opportunities.
 
@@ -27,4 +27,4 @@ Authentication:
 Installation:
    pip install pymongo,yarn,flask-bcrypt,cloudinary
    
-To run install python and run command python.app\.py after cloning and installing dependencies.
+To run install python and run command python .app\.py after cloning and installing dependencies.
