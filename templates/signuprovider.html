@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+</head>
+<body class=" bg-orange-200">
+    <div class="bg-white w-1/2 h-screen ml-96 text-center">
+        <h1 class="text-4xl font-bold mt-2">Welcome to Jobify</h1>
+         <form class="mt-4" action="/signup/provider" method="post">
+               <label class="text-xl" for="name" >Enter your name:</label>
+               <br/>
+               <input type="text" name="name" required class=" border-black border"/>
+               <br/>
+               <br/>
+               <label class="text-xl" for="cname" >Enter your company name:</label>
+               <br/>
+               <input type="text" name="cname" required class=" border-black border"/>
+               <br/>
+               <br/>
+               <label class="text-xl" for="email" >Enter your email :</label>
+               <br/>
+               <input type="email" name="email" required class=" border-black border"/>
+               <br/>
+               <br/>
+               <label class="text-xl" for="phone" >Enter your phone number:</label>
+               <br/>
+               <input type="text" name="phone" pattern="[0-9]{10}" required class=" border-black border"/>
+               <br/>
+               <br/>
+               <label class="text-xl" for="password" >Enter your password :</label>
+               <br/>
+               <input type="password" name="password" required class=" border-black border"/>
+               <br/>
+               <br/>
+               <label class="text-xl" for="cpassword" >Confirm password :</label>
+               <br/>
+               <input type="password" name="cpassword" required class=" border-black border"/>
+               <br/>
+               <br/>
+               <button type="submit" class="btn btn-primary">Signup</button>
+         </form>
+               
+            
+        </div>
+    </div>
+</body>
+</html>
