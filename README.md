@@ -11,7 +11,7 @@ Company Dashboard:
 Candidate Dashboard:
    Browse available job openings,
    Apply for jobs by submitting a resume and cover letter,
-   View applied jobs and their statuses,
+   View applied jobs and their status,
 
 Technologies Used
 
