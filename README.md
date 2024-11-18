@@ -27,4 +27,4 @@ Authentication:
 Installation:
    pip install pymongo,yarn,flask-bcrypt,cloudinary
    
-To run install python and run command python .app\.py after cloning and installing dependencies.
+
