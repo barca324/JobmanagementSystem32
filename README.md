@@ -4,14 +4,14 @@ The Job Management System is a platform where companies can post job openings, a
 
 Features
 Company Dashboard:
-   Post new job openings.
-   View and manage existing job postings.
-   View applicants for each job opening.
+   Post new job openings,
+   View and manage existing job postings,
+   View applicants for each job opening,
 
 Candidate Dashboard:
-   Browse available job openings.
-   Apply for jobs by submitting a resume and cover letter.
-   View applied jobs and their statuses.
+   Browse available job openings,
+   Apply for jobs by submitting a resume and cover letter,
+   View applied jobs and their statuses,
 
 Technologies Used
 
